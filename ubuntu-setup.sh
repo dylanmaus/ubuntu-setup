@@ -9,8 +9,9 @@ apt install vim -y
 apt install dropbear-initramfs -y
 apt install xrdp -y
 apt install git -y
+apt install python3.10-venv -y
+apt install python3-pip -y
 apt autoremove -y
-# ssh-keygen -t ed25519 -N "" -f /home/user1/.ssh/id_ed25519
 systemctl enable xrdp
 systemctl enable ssh
 ufw allow 3389/tcp
