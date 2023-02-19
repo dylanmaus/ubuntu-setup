@@ -19,3 +19,7 @@ sudo ./NVIDIA-Linux-x86_64-525.89.02.run
 `conda activate torch`\
 `conda config --set auto_activate_base false`\
 `conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia`
+
+`sudo groupadd docker`
+`sudo usermod -aG docker $USER`
+`sudo chmod 666 /var/run/docker.sock`
