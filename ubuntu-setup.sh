@@ -4,6 +4,7 @@ apt update -y
 apt upgrade -y
 apt install build-essential -y
 apt install linux-headers-$(uname -r) -y
+apt install nvidia-driver-525
 apt install openssh-server -y
 apt install lm-sensors -y
 apt install curl -y
