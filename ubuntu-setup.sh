@@ -2,8 +2,8 @@
 
 apt update -y
 apt upgrade -y
-apt install build-essential
-apt-get install linux-headers-$(uname -r)
+apt install build-essential -y
+apt install linux-headers-$(uname -r) -y
 apt install openssh-server -y
 apt install lm-sensors -y
 apt install curl -y
