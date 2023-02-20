@@ -5,6 +5,9 @@
  - `ssh-keygen -t ed25519 -N "" -f ~/.ssh/id_ed25519`
  - add public key to GitHub and GitLab
 
+## Monokai Terminal
+ - https://github.com/0xcomposure/monokai-gnome-terminal
+
 ## Miniconda
  - `curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh`
  - `sh Miniconda3-latest-Linux-x86_64.sh`
